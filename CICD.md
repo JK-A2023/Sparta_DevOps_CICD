@@ -25,3 +25,21 @@ Also recieves feedback continously, as to work these changes into production to 
 All of the above practices help to speed up the workflow, leading to more efficient production workflows, faster product iterations.
 This means being quicker to market, with less down time.
 These practices cut costs, saving money.
+
+### How to use it?
+
+Continuous Integration:
+   -  
+   
+
+
+1. Start with code on a local machine.
+2. Use SSH to connect to shared repo i.e., GitHub.
+3. Upload to shared repo.
+4. Webhook Trigger
+5. SSh to Jenkins
+6. Sends to testing server.
+   1. Has Master Node (big Ec2)
+   2. Sends automated tests to detached Agent Node.
+   3. If tests pass, they will be available on the Master Node.
+   4. Then pushes to development.
