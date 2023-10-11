@@ -2,7 +2,7 @@
 
 ### What is it?
 
-- An open-source server automation server used for implementing CICD pipelines. 
+- An open-source automation server used for implementing CICD pipelines. 
 - It helps to automate and streamline the building, testing, and deployment of software applications
 - Makes the software development process more efficient and reliable.
 
@@ -26,4 +26,11 @@
 12. Click on add build step.
 13. From the drop down menu, select `Execute Shell`
 14. Enter the command: `date`
-15. 
+15. Click on Post-build Actions. Select build other projects.
+16. Enter name of Job2 then click apply and save.
+17. Click back to dashboard.
+18. Click on Job2 then configure.
+19. Click on add build step and select Execute shell.
+20. Enter the followingh:
+    1.  `sudo docker pull ahskhan/jenkins:v1`
+21. Enter Job3
