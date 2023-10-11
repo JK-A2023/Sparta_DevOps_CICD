@@ -8,6 +8,15 @@
 
 ### Why use it?
 
+- Integration.
+- Free
+- Open-source.
+
+How does this benefit a business?
+
+
+### Steps
+
 1. Start Jenkins
 2. Run the following where you have jenkins.war file:
    1. `java -jar jenkins.war`
