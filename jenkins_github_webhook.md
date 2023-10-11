@@ -8,26 +8,26 @@ DISCLAIMER: Must already have credentials added.
 2. Freestyle Project
 3. Ok
 
-![img.png](images/jenkins/image.png)
+![img.png](images/webhook/image.png)
 
 ### General
 
 1. Add description :
 
-![img.png](images/jenkins/image-1.png)
+![img.png](images/webhook/image-1.png)
 
 2. Discard old builds
    1. Max # of builds to keep: `3`
 
-![img.png](images/jenkins/image-2.png)
+![img.png](images/webhook/image-2.png)
 
 3. Enable Github Project.
 4. Navigate to GitHub repo page.
    1. Click green code.
    2. Copy HTTPS url.
 
-![img.png](images/jenkins/image-3.png)
-![img.png](images/jenkins/image-4.png)
+![img.png](images/webhook/image-3.png)
+![img.png](images/webhook/image-4.png)
 
 ### Office 265 Connector
 
@@ -35,7 +35,7 @@ DISCLAIMER: Must already have credentials added.
    1. specify `sparta-ubuntu-node`
    2. If using the drop down, make sure to delete the space it adds on at the end. No whitespace.
 
-![img.png](images/jenkins/image-5.png)
+![img.png](images/webhook/image-5.png)
 
 ### Source Code Management:
 
@@ -43,30 +43,30 @@ DISCLAIMER: Must already have credentials added.
 2. Use your credentials that you added previously.
 3. Change branch specifier to main, NOT master.
 
-![img.png](images/jenkins/image-6.png)
+![img.png](images/webhook/image-6.png)
 
 ### Build Triggers:
 
 1. Select GitHub hook trigger.
 
-![img.png](images/jenkins/image-7.png)
+![img.png](images/webhook/image-7.png)
 
 ### Build Environment:
 
 1. Select Provide Node
 
-![img.png](images/jenkins/image-8.png)
+![img.png](images/webhook/image-8.png)
 
 ### Build:
 
 1. Select add Build Steps
 2. Select Execute Shell
 
-![img.png](images/jenkins/image-9.png)
+![img.png](images/webhook/image-9.png)
 
 3. Add in your commands to ran on start:
 
-![img.png](images/jenkins/image-10.png)
+![img.png](images/webhook/image-10.png)
 
 4. Save.
 
@@ -74,18 +74,18 @@ DISCLAIMER: Must already have credentials added.
 
 1. Click on Build Now:
 
-![img.png](images/jenkins/image-11.png)
+![img.png](images/webhook/image-11.png)
 
 2. Refresh page. If it is blue, it has worked. Else, you have made a mistake.
 
-![img.png](images/jenkins/image-12.png)
+![img.png](images/webhook/image-12.png)
 
 ### GitHub Webhook.
 
 1. Preemtively, we will copy our Jenkins address, up to the port:
    1. We will use this shortly.
 
-![img.png](images/jenkins/image-13.png)
+![img.png](images/webhook/image-13.png)
 
 2. Navigate to your GitHub repo.
    1. Find the repo settings.
@@ -98,11 +98,11 @@ DISCLAIMER: Must already have credentials added.
 5. Change content Type to `application/json`
 6. Add webhook.
 
-![img.png](images/jenkins/image-14.png)
+![img.png](images/webhook/image-14.png)
 
 7. Refresh the page. If it has worked, there will be a little green tick.
 
-![img.png](images/jenkins/image-15.png)
+![img.png](images/webhook/image-15.png)
 
 ### Testing:
 
