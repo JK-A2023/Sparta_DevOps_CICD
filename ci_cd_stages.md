@@ -1,8 +1,8 @@
 # Stages of CI/CD with Jenkins
 
-## Stage 2
+## Stage 0
 
-![img.png](images/cd_guide/cd_diagram.png)
+![img.png](iamges/../images/ci_cd_stages/stage_0.png)
 
 1. The user sets up a local repo.
 2. User connects this via SSH to GitHub.
@@ -17,10 +17,21 @@
    3. Runs `npm test` on copied code.
    4. If it fails, a log is generated. User must use this log to find out where failure was, and rectify.
    5. If it passes, Jenkins points to next Jenkins job (Post-Build).
+
+## Stage 1
+
+![img.png](images/ci_cd_stages/stage_1.png)
+
 5. User sets up Jenkins Merge job:
    1. Runs Post-Build from previous job, only if it works.
    2. Merges Dev branch to Main using Git Publisher.
    3. Triggers next Jenkins CD job.
+
+## Stage 2
+
+![img.png](images/cd_guide/cd_diagram.png)
+
+
 6. User sets up app EC2:
    1. Launch EC2 instance.
    2. Standard set up.
