@@ -1,19 +1,5 @@
 # Setting up CD
 
-## App EC2:
-
-### Launch EC2 instance.
-
-1. Using `ami-0136ddddd07f0584f` for AMI.
-2. Security Groups:
-   1. Port 3000 - Node app listens on 3000
-   2. 22 - ssh
-   3. 80 - HTTP
-
-## Jenkins-CD
-
-Set up third job:
-
 ### General
 
 1. Max builds: 3
@@ -45,7 +31,8 @@ Set up third job:
 
 ### Build Environment:
 
-1. SSH Agent: `tech254.pem`
+1. Provide Node.
+2. SSH Agent: `tech254.pem`
 
 ![img.png](images/cd_guide/image-4.png)
 

@@ -2,7 +2,7 @@
 
 ## Stage 0
 
-![img.png](iamges/../images/ci_cd_stages/stage_0.png)
+![img.png](cicd_images/stage_0.png)
 
 1. The user sets up a local repo.
 2. User connects this via SSH to GitHub.
@@ -20,7 +20,7 @@
 
 ## Stage 1
 
-![img.png](images/ci_cd_stages/stage_1.png)
+![img.png](cicd_images/stage_1.png)
 
 5. User sets up Jenkins Merge job:
    1. Runs Post-Build from previous job, only if it works.
@@ -29,7 +29,7 @@
 
 ## Stage 2
 
-![img.png](images/cd_guide/cd_diagram.png)
+![img.png](cicd_images/cd_diagram.png)
 
 
 6. User sets up app EC2:
@@ -45,7 +45,7 @@
 
 ## Stage 3
 
-![img.png](images/ci_cd_stages/image.png)
+![img.png](cicd_images/image.png)
 
 1. User sets up Jenkins app job:
    1. Allows Node.
