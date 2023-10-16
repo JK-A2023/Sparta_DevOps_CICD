@@ -3,7 +3,7 @@
 ## EC2: 
 
 1. Launch an EC2 Instance.
-2. Make sure to have Security Group of 8080.
+2. Make sure to have Security Groups of 8080, 22, 3000, and 80.
 3. SSH into instance.
 
 ## Jenkins Installation:
