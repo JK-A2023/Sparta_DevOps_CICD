@@ -29,7 +29,7 @@
 
 ## Stage 2
 
-![img.png](cicd_images/cd_diagram.png)
+![img.png](cicd_images/stage_2.png)
 
 
 6. User sets up app EC2:
